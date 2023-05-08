@@ -1,0 +1,29 @@
+
+:root{
+    --light-bg:#0e3c5e;
+    --dark-bg: #081b29;
+    --blue:#00b7ff;
+    --light-blue:#00abf0;
+    --blue-dark:#165d79;
+    --text-white: #ededed;
+    --blue-text:#00abf0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh ;
+}
+/* Projects */
+.projects {
+    width: 100%;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px 2%;
+}

@@ -1,0 +1,32 @@
+
+:root{
+    --light-bg:#0e3c5e;
+    --dark-bg: #081b29;
+    --blue:#00b7ff;
+    --light-blue:#0a85b6;
+    --blue-dark:#165d79;
+    --text-white: #ededed;
+    --blue-text:#00abf0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh ;
+}
+
+/* ServiceExperiences */
+.services-experience{
+    padding: 100px 0px;
+    position: relative;
+  }
+  .Services-container{
+    max-width: 1200px;
+    padding: 0px 20px;
+    width: 100%;
+    margin: auto;
+  }
